@@ -7,13 +7,17 @@
         <title>Module Cart</title>
 
        <!-- Laravel Mix - CSS File -->
-       <!-- <link rel="stylesheet" href="{{ mix('css/cart.css') }}"> -->
+       <link rel="stylesheet" href="{{ mix('css/cart.css','modules/Cart') }}">
+
 
     </head>
     <body>
-        @yield('content')
+
+        <div id="app">
+            @yield('content')
+        </div>
 
         <!-- Laravel Mix - JS File -->
-        <!-- <script src="{{ mix('js/cart.js') }}"></script> -->
+        <script src="{{ mix('js/cart.js','modules/Cart') }}"></script>
     </body>
 </html>
