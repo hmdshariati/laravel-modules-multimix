@@ -64,3 +64,17 @@ php artisan key:generate
 valet open ## or open the app in browser
 ```
 
+To compile assets for a module, remember you have to have its dependencies installed.
+
+So go to the module directory, and (depending on your preference)
+
+``` 
+
+cd Modules/<ModuleName>
+
+npm install
+
+# or
+
+yarn
+```
