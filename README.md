@@ -80,7 +80,7 @@ valet open ## or open the app in browser
 
 #### Key files to inspect
 
-From analyzing this 2 files, you get the picture of how it's working
+From analyzing these three files, you get the picture of how it's working
 
 ```
 webpack.mix.js
