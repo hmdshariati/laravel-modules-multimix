@@ -12,6 +12,12 @@ This will be as easy as
 npm run mix dev <MODULE_NAME> 
 ```
 
+Thank you to the developers of both great packages
+
+[Laravel-Modules nWidart/laravel-modules](https://github.com/nWidart/laravel-modules)
+
+[Laravel-Multimix fandogh/laravel-multimix](https://github.com/fandogh/laravel-multimix)
+
 Example, for a `Product` Module
 ```
 npm run mix dev Product
@@ -34,6 +40,7 @@ In this example, not only separating concerns, but also making:
 - Cart Module with VueJS + Bootstrap
 
 Frontend assets will be on "public/modules/MODULE_NAME"
+
 ```
 public/modules/Product/mix-manifest.json
 public/modules/Product/js/*
@@ -46,8 +53,15 @@ public/modules/Cart/js/*
 public/modules/Cart/css/*
 
 (...)
+```
+
+Mix helper on Blade Files will receive the manifest.json path as 2nd argument
 
 ```
+<link rel="stylesheet" href="{{ mix('css/product.css','modules/Product') }}">
+```
+
+
 
 #### Try it out
 ``` 
@@ -63,6 +77,18 @@ php artisan key:generate
 
 valet open ## or open the app in browser
 ```
+
+#### Key files to inspect
+
+From analyzing this 2 files, you get the picture of how it's working
+
+```
+webpack.mix.js
+Modules/Product/webpack.mix.js
+Product/Resources/views/layouts/master.blade.php
+```
+
+
 
 To compile assets for a module, remember you have to have its dependencies installed.
 
