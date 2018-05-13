@@ -21,4 +21,13 @@
         </b-row>
     </b-container>
 
+    <div class="w-100 mt-5"></div>
+
+    <div class="flex ">
+        <div class="text-center">
+            <a href="/" class="btn btn-primary" style="text-decoration: none;">Back</a>
+        </div>
+    </div>
+
+
 @stop

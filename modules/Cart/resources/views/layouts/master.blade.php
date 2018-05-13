@@ -9,11 +9,16 @@
     <!-- Laravel Mix - CSS File -->
     <link rel="stylesheet" href="{{ mix('css/cart.css','modules/Cart') }}">
 
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
 
 </head>
 <body>
 
-<div id="app">
+<div id="app" v-cloak>
     @yield('content')
 </div>
 

@@ -1,0 +1,25 @@
+{
+    "name": "ijpatricio/frontoffice",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joao Patricio",
+            "email": "ijpatricio@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Frontoffice\\Providers\\FrontofficeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Frontoffice\\": ""
+        }
+    }
+}

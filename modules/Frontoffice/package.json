@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "dependencies": {
+        "vue": "^2.5.16"
+    },
+    "devDependencies": {
+        "tailwindcss": "^0.5.3"
+    }
+}
