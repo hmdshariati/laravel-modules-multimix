@@ -23,24 +23,24 @@ return [
     */
 
     'stubs' => [
-        'enabled' => false,
-        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'enabled' => true,
+        'path' => base_path() . '/resources/stubs/modules',
         'files' => [
             'start' => 'start.php',
-            'routes' => 'Http/routes.php',
-            'views/index' => 'Resources/views/index.blade.php',
-            'views/master' => 'Resources/views/layouts/master.blade.php',
-            'scaffold/config' => 'Config/config.php',
+            'routes' => 'routes/web.php',
+            'views/index' => 'resources/views/index.blade.php',
+            'views/master' => 'resources/views/layouts/master.blade.php',
+            'scaffold/config' => 'config/config.php',
             'composer' => 'composer.json',
-            'assets/js/app' => 'Resources/assets/js/app.js',
-            'assets/sass/app' => 'Resources/assets/sass/app.scss',
+            'assets/js/app' => 'resources/assets/js/app.js',
+            'assets/sass/app' => 'resources/assets/sass/app.scss',
             'webpack' => 'webpack.mix.js',
             'package' => 'package.json',
         ],
         'replacements' => [
             'start' => ['LOWER_NAME', 'ROUTES_LOCATION'],
             'routes' => ['LOWER_NAME', 'STUDLY_NAME', 'MODULE_NAMESPACE'],
-            'webpack' => ['LOWER_NAME'],
+            'webpack' => ['LOWER_NAME','STUDLY_NAME'],
             'json' => ['LOWER_NAME', 'STUDLY_NAME', 'MODULE_NAMESPACE'],
             'views/index' => ['LOWER_NAME'],
             'views/master' => ['STUDLY_NAME','LOWER_NAME'],
@@ -67,7 +67,7 @@ return [
         |
         */
 
-        'modules' => base_path('Modules'),
+        'modules' => base_path('modules'),
         /*
         |--------------------------------------------------------------------------
         | Modules assets path
@@ -97,29 +97,29 @@ return [
         | Set the generate key to false to not generate that folder
         */
         'generator' => [
-            'config' => ['path' => 'Config', 'generate' => true],
-            'command' => ['path' => 'Console', 'generate' => true],
-            'migration' => ['path' => 'Database/Migrations', 'generate' => true],
-            'seeder' => ['path' => 'Database/Seeders', 'generate' => true],
-            'factory' => ['path' => 'Database/factories', 'generate' => true],
-            'model' => ['path' => 'Entities', 'generate' => true],
-            'controller' => ['path' => 'Http/Controllers', 'generate' => true],
-            'filter' => ['path' => 'Http/Middleware', 'generate' => true],
-            'request' => ['path' => 'Http/Requests', 'generate' => true],
-            'provider' => ['path' => 'Providers', 'generate' => true],
-            'assets' => ['path' => 'Resources/assets', 'generate' => true],
-            'lang' => ['path' => 'Resources/lang', 'generate' => true],
-            'views' => ['path' => 'Resources/views', 'generate' => true],
-            'test' => ['path' => 'Tests', 'generate' => true],
-            'repository' => ['path' => 'Repositories', 'generate' => false],
-            'event' => ['path' => 'Events', 'generate' => false],
-            'listener' => ['path' => 'Listeners', 'generate' => false],
-            'policies' => ['path' => 'Policies', 'generate' => false],
-            'rules' => ['path' => 'Rules', 'generate' => false],
-            'jobs' => ['path' => 'Jobs', 'generate' => false],
-            'emails' => ['path' => 'Emails', 'generate' => false],
-            'notifications' => ['path' => 'Notifications', 'generate' => false],
-            'resource' => ['path' => 'Transformers', 'generate' => false],
+            'config'        => ['path' => 'config',                 'generate' => true],
+            'command'       => ['path' => 'Console',                'generate' => true],
+            'migration'     => ['path' => 'database/migrations',    'generate' => true],
+            'seeder'        => ['path' => 'database/seeders',       'generate' => true],
+            'factory'       => ['path' => 'database/factories',     'generate' => true],
+            'model'         => ['path' => 'Models',                 'generate' => true],
+            'controller'    => ['path' => 'Http/Controllers',       'generate' => true],
+            'filter'        => ['path' => 'Http/Middleware',        'generate' => false],
+            'request'       => ['path' => 'Http/Requests',          'generate' => false],
+            'provider'      => ['path' => 'Providers',              'generate' => false],
+            'assets'        => ['path' => 'resources/assets',       'generate' => false],
+            'lang'          => ['path' => 'resources/lang',         'generate' => false],
+            'views'         => ['path' => 'resources/views',        'generate' => false],
+            'test'          => ['path' => 'tests',                  'generate' => false],
+            'repository'    => ['path' => 'Repositories',           'generate' => false],
+            'event'         => ['path' => 'Events',                 'generate' => false],
+            'listener'      => ['path' => 'Listeners',              'generate' => false],
+            'policies'      => ['path' => 'Policies',               'generate' => false],
+            'rules'         => ['path' => 'Rules',                  'generate' => false],
+            'jobs'          => ['path' => 'Jobs',                   'generate' => false],
+            'emails'        => ['path' => 'Emails',                 'generate' => false],
+            'notifications' => ['path' => 'Notifications',          'generate' => false],
+            'resource'      => ['path' => 'Http/Resources',         'generate' => false],
         ],
     ],
     /*
@@ -148,10 +148,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'ijpatricio',
         'author' => [
-            'name' => 'Nicolas Widart',
-            'email' => 'n.widart@gmail.com',
+            'name' => 'Joao Patricio',
+            'email' => 'ijpatricio@gmail.com',
         ],
     ],
     /*

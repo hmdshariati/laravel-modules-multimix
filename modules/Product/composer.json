@@ -1,0 +1,25 @@
+{
+    "name": "ijpatricio/product",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joao Patricio",
+            "email": "ijpatricio@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Product\\Providers\\ProductServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Product\\": ""
+        }
+    }
+}

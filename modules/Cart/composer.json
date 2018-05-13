@@ -1,0 +1,25 @@
+{
+    "name": "ijpatricio/cart",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joao Patricio",
+            "email": "ijpatricio@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Cart\\Providers\\CartServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cart\\": ""
+        }
+    }
+}
