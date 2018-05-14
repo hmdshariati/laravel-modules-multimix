@@ -7,7 +7,7 @@
     <title>Module Product</title>
 
     <!-- Laravel Mix - CSS File -->
-    <link rel="stylesheet" href="{{ mix('css/product.css','modules/product') }}">
+    <link rel="stylesheet" href="{{ mix('css/product.css','/modules/product') }}">
 
     <style>
         [v-cloak] {

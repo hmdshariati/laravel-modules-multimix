@@ -7,7 +7,7 @@
     <title>Module Cart</title>
 
     <!-- Laravel Mix - CSS File -->
-    <link rel="stylesheet" href="{{ mix('css/cart.css','modules/Cart') }}">
+    <link rel="stylesheet" href="{{ mix('css/cart.css','/modules/cart') }}">
 
     <style>
         [v-cloak] {
