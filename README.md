@@ -1,6 +1,8 @@
-### Multi Frontend Scaffolding
+### Modular Laravel Approach
 
-#### A demo for a purposal for nwidart/laravel-modules and laravel-multimix
+###### Instructions below pictures
+
+![ModularLaravelImg](public/img/launch.jpeg/?raw=true "Title")
 
 The purpose is to have multi frontend scaffolding pipelines, one per module, all of it from project root
 
@@ -43,11 +45,13 @@ Each module will have its own package.json with frontend dependencies, and its o
 
 In this example, not only separating concerns, but also making:
 
-- Product Module with VueJS + Bulma
+- Frontoffice Module with TailwindCSS + VueJs
 
 - Cart Module with VueJS + Bootstrap
 
-Frontend assets will be on "public/modules/MODULE_NAME"
+- Product Module with ReactJs + Bulma
+
+Frontend assets will be on "public/modules/<MODULE_NAME>"
 
 ```
 public/modules/Product/mix-manifest.json
@@ -69,15 +73,11 @@ Mix helper on Blade Files will receive the manifest.json path as 2nd argument
 <link rel="stylesheet" href="{{ mix('css/product.css','modules/Product') }}">
 ```
 
-
-
 #### Try it out
 ``` 
 git clone https://github.com/ijpatricio/laravel-modules-multimix.git
 
 cp .env.example .env
-
-## just make sure .env with MIX_MIX_PUBLIC_PATH=public
 
 composer install
 
@@ -92,23 +92,18 @@ From analyzing these three files, you get the picture of how it's working
 
 ```
 webpack.mix.js
-Modules/Product/webpack.mix.js
-Product/Resources/views/layouts/master.blade.php
+modules/Cart/webpack.mix.js
+Cart/Resources/views/layouts/master.blade.php
 ```
 
 
 
 To compile assets for a module, remember you have to have its dependencies installed.
 
-So go to the module directory, and (depending on your preference)
-
 ``` 
 
-cd Modules/<ModuleName>
+cd modules/<ModuleName>
 
 npm install
 
-# or
-
-yarn
 ```

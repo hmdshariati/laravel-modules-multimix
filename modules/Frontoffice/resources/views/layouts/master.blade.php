@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Module Frontoffice</title>
+        <title>Modular Laravel</title>
 
         <link rel="stylesheet" href="{{ mix('css/frontoffice.css','/modules/frontoffice') }}">
 

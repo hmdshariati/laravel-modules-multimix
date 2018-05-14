@@ -5,12 +5,18 @@
 
         <div class="flex justify-center mt-12">
 
-            <div class="max-w-lg rounded overflow-hidden shadow-lg">
+            <div class="max-w-2xl rounded overflow-hidden shadow-lg">
 
-                <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+                <img class="w-full" src="/img/launch.jpeg" alt="Modular Laravel">
 
                 <div class="px-6 py-4 mb-4">
-                    <div class="font-bold text-xl">Laravel with Laravel-Modules and Laravel-Multimix</div>
+                    <div class="flex ">
+                        <span class="font-bold pt-1 text-xl">Modular Laravel with Laravel-Modules and Laravel-Multimix</span>
+                        <a href="https://github.com/ijpatricio/laravel-modules-multimix/" target="_blank"
+                           class="ml-3 text-xs no-underline font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">
+                            Github
+                        </a>
+                    </div>
                     <p class="text-grey-darker text-base leading-loose">
                         This is an awesome way to have separate concerns on both backend and frontend.
                     </p>
@@ -19,10 +25,17 @@
                 <div class="px-6 py-4">
                     <p class="text-grey-darker text-base leading-loose">
 
-                        Basically, on the server-side is a Laravel application.
+                        Basically, on the server-side it's a
+                        <a href="https://laravel.com/" target="_blank" class="external-link">
+                            Laravel
+                        </a>
+                        application.
 
-                        On the same project, with Laravel-Mix, and those packages mentioned above, we get independent
-                        frontend areas:
+                        On the same project, with
+                        <a href="https://github.com/JeffreyWay/laravel-mix" target="_blank" class="external-link">
+                            Laravel Mix
+                        </a>
+                        , the packages and tools mentioned below, we get independent areas (both back and frontend):
                     </p>
                 </div>
 
@@ -31,7 +44,9 @@
                     <div class="flex h-16 justify-center">
                         <div class="flex">
                             <div>
-                                The frontoffice, where you are... With (the both amazing!!)
+                                The
+                                <a href="/#" class="package-link rounded-full">Frontoffice Module</a>
+                                (where you are right now) built with
                             </div>
                             <div class="ml-3">
                                 <a href="https://tailwindcss.com/" target="_blank" class="external-link">
@@ -112,10 +127,36 @@
                 </div>
 
 
-                <div class="px-6 py-4 flex mb-6">
-                    <p class="mt-4 text-grey-darker text-base leading-normal ">
-                        Thank you to all the creators!! Happy coding!!
-                    </p>
+                <div class="px-6 py-4 flex mb-6 justify-center flex-col">
+
+                    <div class="text-center">
+                        <p class="mt-4 text-grey-darker leading-normal">
+                            Thank you so much to all the creators and amazing community members, that make this journey so awesome!!
+                        </p>
+                    </div>
+
+                    <div class="mt-6 mb-6">
+                        <div class="bg-white mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden">
+                            <div class="sm:flex sm:items-center px-6 py-4">
+                                <img class="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0"
+                                     src="https://avatars0.githubusercontent.com/u/26031459?s=460&v=4" alt="">
+                                <div class="text-center sm:text-left sm:flex-grow">
+                                    <div class="mb-4">
+                                        <p class="text-xl leading-tight">João Patrício</p>
+                                        <p class="text-sm leading-tight text-grey-dark">
+                                            Happy coding!
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <a href="https://twitter.com/ijpatricio" target="_blank"
+                                           class="text-xs no-underline font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">
+                                            Twitter
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
