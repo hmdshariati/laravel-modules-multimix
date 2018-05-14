@@ -26,13 +26,13 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Modules\\": "modules/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Modules\\": "Modules/"
+            "Tests\\": "tests/"
         }
     },
     "extra": {
