@@ -6,6 +6,8 @@
 
 The purpose is to have multi frontend scaffolding pipelines, one per module, all of it from project root
 
+See it in action here [Live Demo, with Vue and React DevTools Enabled](https://laravel-modules-multimix.cursor.pt/)
+
 If you have been building apps with a considerate high ammount of "areas", concerns and/or using different frontend dependencies, you know what I'm talking about.
 
 This implementation approach is combining nWidart/laravel-modules and  fandogh/laravel-multimix
