@@ -1,4 +1,4 @@
-@extends('cart::layouts.master')
+    @extends('cart::layouts.master')
 
 @section('content')
 
@@ -20,6 +20,14 @@
             </b-col>
         </b-row>
     </b-container>
+
+    <div class="w-100 mt-5"></div>
+
+    <div class="container">
+        <div class="flex justify-content-center">
+            <example message="Hello World!"></example>
+        </div>
+    </div>
 
     <div class="w-100 mt-5"></div>
 

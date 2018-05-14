@@ -2,7 +2,8 @@
     "private": true,
     "dependencies": {
         "bulma": "^0.7.1",
-        "cross-env": "^5.1.4",
-        "vue": "^2.5.16"
+        "babel-preset-react": "^6.23.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
     }
 }

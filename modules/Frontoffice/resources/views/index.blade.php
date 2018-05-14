@@ -46,13 +46,13 @@
                                 The frontoffice, where you are... With (the both amazing!!)
                             </div>
                             <div class="ml-3">
-                                <a href="https://tailwindcss.com/" class="external-link">
+                                <a href="https://tailwindcss.com/" target="_blank" class="external-link">
                                     TailwindCSS
                                 </a>
                             </div>
                             <div class="ml-3">and</div>
                             <div class="ml-3">
-                                <a href="https://vuejs.org/" class="external-link">
+                                <a href="https://vuejs.org/" target="_blank" class="external-link">
                                     VueJS
                                 </a>
                             </div>
@@ -64,7 +64,7 @@
                             <a href="/cart" class="package-link rounded-full">Cart Module</a>
                         </div>
                         <div class="ml-3">
-                            Product Module, Vue and Bulma
+                            Cart Module, VueJS, Bootstrap-Vue and Bootstrap 4
                         </div>
                     </div>
 
@@ -73,7 +73,7 @@
                             <a href="/product" class="package-link rounded-full">Product Module</a>
                         </div>
                         <div class="ml-3">
-                            Product Module, Vue and Bulma
+                            Product Module, ReactJS and Bulma
                         </div>
                     </div>
 

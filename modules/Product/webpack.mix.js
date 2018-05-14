@@ -11,5 +11,5 @@ if (mix.inProduction()) {
 }
 
 mix
-    .js(__dirname + '/resources/assets/js/app.js', 'js/product.js')
+    .react(__dirname + '/resources/assets/js/app.js', 'js/product.js')
     .sass( __dirname + '/resources/assets/sass/app.scss', 'css/product.css');

@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div id="app" v-cloak>
+<div id="app">
     @yield('content')
 </div>
 
