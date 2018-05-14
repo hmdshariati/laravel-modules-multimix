@@ -22,6 +22,8 @@ Implementation keypoints:
 
 - Multiple manifest.json files (one per module)
 
+See it in action here [Live Demo, with Vue and React DevTools Enabled](https://laravel-modules-multimix.cursor.pt/)
+
 This will be as easy as
 
 ```
