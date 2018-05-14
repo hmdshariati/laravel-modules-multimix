@@ -37,17 +37,17 @@
  */
 
 .package-link {
-    @apply .bg-white .no-underline .text-grey-darkest .font-semibold .py-2 .px-4 .border .border-grey-light .rounded shadow;
+    @apply .bg-white .no-underline .text-blue-darker .font-semibold .py-2 .px-4 .border .border-grey-light .rounded shadow;
 }
 .package-link:hover {
-    @apply .bg-grey-lightest;
+    @apply .bg-teal-lighter;
 }
 
 .external-link {
-    @apply .rounded-full .p-2 .no-underline .bg-grey-lighter .text-grey-darkest .font-bold;
+    @apply .p-2 .no-underline .font-bold .text-blue-dark;
 }
 .external-link:hover {
-    @apply .bg-grey;
+    @apply .bg-blue-lighter .rounded-full;
 }
 
 /**

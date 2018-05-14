@@ -701,7 +701,7 @@ button,
 .package-link {
   background-color: #fff;
   text-decoration: none;
-  color: #3d4852;
+  color: #1c3d5a;
   font-weight: 600;
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -715,20 +715,19 @@ button,
 }
 
 .package-link:hover {
-  background-color: #f8fafc;
+  background-color: #a0f0ed;
 }
 
 .external-link {
-  border-radius: 9999px;
   padding: .5rem;
   text-decoration: none;
-  background-color: #f1f5f8;
-  color: #3d4852;
   font-weight: 700;
+  color: #2779bd;
 }
 
 .external-link:hover {
-  background-color: #b8c2cc;
+  background-color: #bcdefa;
+  border-radius: 9999px;
 }
 
 /**
