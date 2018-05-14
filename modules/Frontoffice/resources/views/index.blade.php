@@ -13,13 +13,14 @@
                     <div class="flex ">
                         <span class="font-bold pt-1 text-xl">Modular Laravel with Laravel-Modules and Laravel-Multimix</span>
                         <a href="https://github.com/ijpatricio/laravel-modules-multimix/" target="_blank"
-                           class="ml-3 text-xs no-underline font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">
+                           class="ml-12 text-xs no-underline font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">
                             Github
                         </a>
                     </div>
                     <p class="text-grey-darker text-base leading-loose">
                         This is an awesome way to have separate concerns on both backend and frontend.
                     </p>
+                    <p class="pt-1 text-sm">Any doubt, issue, typo, error, please let me know!</p>
                 </div>
 
                 <div class="px-6 py-4 flex justify-around">
