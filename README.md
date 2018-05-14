@@ -4,15 +4,15 @@
 
 ###### Instructions below pictures
 
+See it in action here [Live Demo, with Vue and React DevTools Enabled](https://laravel-modules-multimix.cursor.pt/)
+
 ![ModularLaravelImg](public/img/launch.jpeg/?raw=true "Title")
 
 The purpose is to have multi frontend scaffolding pipelines, one per module, all of it from project root
 
-![Folder_structure_1](public/img/folder_structure_1.png?raw=true "Title")   ![Folder_structure_2](public/img/folder_structure_2.png?raw=true "Title")
-
-See it in action here [Live Demo, with Vue and React DevTools Enabled](https://laravel-modules-multimix.cursor.pt/)
-
 If you have been building apps with a considerate high ammount of "areas", concerns and/or using different frontend dependencies, you know what I'm talking about.
+
+![Folder_structure_1](public/img/folder_structure_1.png?raw=true "Title")   ![Folder_structure_2](public/img/folder_structure_2.png?raw=true "Title")
 
 This implementation approach is combining nWidart/laravel-modules and  fandogh/laravel-multimix
 
