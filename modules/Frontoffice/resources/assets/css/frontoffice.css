@@ -37,7 +37,7 @@
  */
 
 .package-link {
-    @apply .bg-white .no-underline .text-blue-darker .font-semibold .py-2 .px-4 .border .border-grey-light .rounded shadow;
+    @apply .bg-white .no-underline .text-blue-darker .font-semibold .py-1 .px-2 .border .border-grey-light .rounded shadow;
 }
 .package-link:hover {
     @apply .bg-teal-lighter;

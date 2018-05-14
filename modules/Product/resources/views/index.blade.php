@@ -14,7 +14,7 @@
             </div>
             <div class="column has-text-centered">
                 <div class="notification is-primary">
-                    This module is powered by Vue and Bulma
+                    This module is powered by React and Bulma
                 </div>
             </div>
         </div>
