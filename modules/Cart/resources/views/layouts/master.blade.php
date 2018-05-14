@@ -23,6 +23,6 @@
 </div>
 
 <!-- Laravel Mix - JS File -->
-<script src="{{ mix('js/cart.js','modules/Cart') }}"></script>
+<script src="{{ mix('js/cart.js','/modules/cart') }}"></script>
 </body>
 </html>
