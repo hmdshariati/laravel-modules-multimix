@@ -22,6 +22,16 @@
                     </p>
                 </div>
 
+                <div class="px-6 py-4 flex justify-around">
+                    <div class="">
+                        <img src="/img/folder_structure_1.png">
+                    </div>
+                    <div class="">
+                        <img src="/img/folder_structure_2.png" class="w-full">
+                    </div>
+                </div>
+
+
                 <div class="px-6 py-4">
                     <p class="text-grey-darker text-base leading-loose">
 
